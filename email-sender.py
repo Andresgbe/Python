@@ -2,8 +2,8 @@ import smtplib
 
 email_transmitter = "your email"
 password = "your password"
-email_receiver="receiver email"
-message = "the message"
+email_receiver= "receiver email"
+message = "your message"
 
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.starttls
